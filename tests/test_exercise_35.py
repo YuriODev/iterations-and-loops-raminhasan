@@ -31,7 +31,7 @@ class TestExercise35(CustomTestCase):
         """
 
         inputs = ["1"]
-        expected_output = "9 7 5 3 1 \n"
+        expected_output = "9 7 5 3 1"
         output = self.run_exercise(inputs)
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
@@ -43,7 +43,7 @@ class TestExercise35(CustomTestCase):
 
         inputs = ["2"]
         output = self.run_exercise(inputs)
-        expected_output = "99 97 95 93 91 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11 \n"
+        expected_output = "99 97 95 93 91 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 
